@@ -1,0 +1,147 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.container{
+    width : 100vw;
+    height : 6rem;
+    background-color: black;
+    display : flex; 
+    align-items: center;
+
+}
+
+.priority-content{
+    height : 4rem;
+    width : 20rem;
+    background-color : white;
+    margin-left : 5rem;
+    display : flex; 
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.action-button-content{
+    height : 4rem;
+    width : 10rem;
+    background-color : white;
+    margin-left : 5rem;
+    display : flex; 
+    align-items: center;
+    justify-content : space-between;
+}
+
+.color{
+    height : 2rem;
+    width : 3.5rem;
+    background-color : red;
+}
+.red{
+    background-color : red;
+
+}
+.blue{
+    background-color: blue;
+
+
+}
+.grey{
+    background-color : grey;
+}
+.black{
+    background-color : black;
+}
+
+.add-btn{
+    font-size : 1.75rem;
+    margin-left : 1.5rem;
+}
+.remove-btn{
+    font-size : 1.5rem;
+    margin-right : 1.5rem;
+}
+
+.modal-content{
+    height : 50vh;
+    width : 50vw;
+    display : none;
+    position : fixed; 
+    top : 25%;
+    left : 25%;
+    border : 1px solid grey;
+    z-index: 1;
+
+}
+.textarea{
+    height : 100%;
+    width : 75%;
+    border : none;
+    outline : none; 
+    resize : none;  
+    font-size : 2.5rem;
+    padding : 2.5rem;
+    border-right : 2px solid grey;
+}
+.priority-content-2{
+    background-color: rgba(171, 200, 211, 0.99);
+    height : 100%; 
+    width : 25%;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : space-evenly;
+}
+.priority-color{
+    height : 3rem;
+    width : 5rem;
+    border : none;
+}
+
+.ticket-cont{
+    position : relative; 
+    display : block;
+    height : 10rem;
+    width : 15rem;
+    background-color : rgb(182, 203, 221)
+}
+.ticket-color{
+    height : 1.5rem;
+    background-color: none;
+}
+.ticket-id{
+    height : 1.5rem;
+    font-weight : bold;
+    background-color : rgb(211, 207, 207);
+}
+.ticket-task{
+    height : calc(10rem - 1.5rem - 1rem);   
+    padding : 5px;
+    font-size : 1.25rem;
+    font-weight : bold;
+}
+.main-ticket-cont{
+    margin-top : 2rem;
+    height : 90vh;
+    width : 100vw;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+    
+    gap : 2rem;
+
+}
+
+.active{
+
+    border : 3px solid yellow;
+}
+
+.lock-unlock{
+    position : absolute;
+    right : 5px;
+    bottom : 5px;
+}
+
